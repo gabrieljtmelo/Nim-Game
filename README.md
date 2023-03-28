@@ -1,2 +1,4 @@
-# Nim-Game
- An old chinese game
+# Nim Game
+ Nim é um jogo matemático de estratégia onde dois jogadores removem peças a cada turno até terem removido todas as peças restantes. Existe um limite máximo de peças a serem removidas por turno e o número de peças iniciais é pré-definido. Neste caso, o número de peças totais é gerado aleatoriamente, assim como o número máximo de peças a serem removidas por cada turno de jogador (número inferior ao número total de peças). Seja 'n' o número de peças totais restantes e 'm' o número máximo de peças a serem removidas por turno, a estratégia básica é sempre remover peças ao ponto de fazer com que 'n' seja igual a um múltiplo de 'm+1'. Por exemplo, seja 'n' = 8 e m = '2', a estratégia seria de remover 2 peças, para que 'n' = 6 que é um multiplo de 'm+1'(3). O computador usará desta estratégia a não ser que em seu turno 'n' seja igual a um multiplo de 'm+1'. Neste caso, ele retirá o máximo possível de peças.
+ 
+
